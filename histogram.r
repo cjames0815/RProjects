@@ -50,6 +50,7 @@ hist(iris$Petal.Width[iris$Species == "virginica"],
 )
 
 
+par(mfrow = c(1, 1))
 
 
 
