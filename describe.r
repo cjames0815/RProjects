@@ -25,4 +25,7 @@ describe(iris$Sepal.Length)
 describe(iris)
 
 #detach and unload psych package from current R enviroment
-detach(package.pysch)
+detach(
+    package.pysch,
+    unload = TRUE    
+)
