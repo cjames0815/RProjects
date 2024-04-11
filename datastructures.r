@@ -21,14 +21,14 @@ v2
 #create a vector of logical data values 
 v3 <- c(T,F,F,T,T)
 v3
-3 a matrix is a 2 dimensional collection 
+#3 a matrix is a 2 dimensional collection 
 # it consists of rows and columns 
 # the data values must be of the same data type
 #use the matrix fucntion to create a matrix
 
 #create a matrix of logical data values
 m1 <- matrix(
-    c(T,F,F,F,T,F) # specifies the data values 
+    c(T, F, F, F, T, F) # specifies the data values 
     nrow = 2 #specifies the number of rows
 )
 m1
@@ -94,3 +94,4 @@ list2 <- list(o1,o2,o3, list1)
 list2
 
 rm(list = ls())
+

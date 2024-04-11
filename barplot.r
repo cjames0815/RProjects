@@ -19,7 +19,7 @@ head(mtcars)
 ?table
 
 #create table and store it in an object
-cylinder <- table(mtcars$cyl)
+cylinders <- table(mtcars$cyl)
 
 #to view the contents of the object, simply reference it
 cylinders
